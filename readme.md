@@ -29,11 +29,10 @@ To use Tailwind CSS in your project, follow these steps:
 In your `package.json` file, add the following scripts:
 
 ```json
-"scripts": {
-  "test": "echo \"Error: no test specified\" && exit 1",
-  "build" : "tailwind -i ./input.css -o ./css/style.css",
-  "watch" : "tailwind -i ./input.css -o ./css/style.css --watch"
-},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tailwind -i ./src/input.css -o ./dist/output.css --watch"
+  },
 ```
 
 ## Usage
