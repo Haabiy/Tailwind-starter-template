@@ -43,5 +43,5 @@ To compile Tailwind CSS and watch for changes, run the following command:
 npm run watch
 ```
 
-For more information and examples, check out the [GitHub repository](https://github.com/phithounsavanh/Tailwind-starter).
-```
+For more information and examples, check out the [Tailwind-Starter-Reference](https://github.com/phithounsavanh/Tailwind-starter).
+
