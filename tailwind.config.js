@@ -3,12 +3,16 @@ module.exports = {
   content: ['./dist/*.{html,js}'],
   theme: {
     extend: {
+      left: {
+        'leftx': '120rem',
+      },
       height:{
         '75': '28rem',
         '80': '30rem',
         '11/12': '85%',
         '100':'35rem',
         'x' : '43rem',
+        'yheight' : '43rem',
         'new_height' : '120rem',
       },
 
@@ -19,7 +23,7 @@ module.exports = {
         '100':'50rem',
         'y':'30rem',
         'new_width' : '50rem',
-        'test' : '40rem'
+        'test' : '40rem',
       }
 
     },
