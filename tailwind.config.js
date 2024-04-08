@@ -8,7 +8,8 @@ module.exports = {
         '80': '30rem',
         '11/12': '85%',
         '100':'35rem',
-        'x' : '43rem'
+        'x' : '43rem',
+        'new_height' : '120rem',
       },
 
       width:{
@@ -16,7 +17,9 @@ module.exports = {
         '40': '20rem',
         '11/12': '91.67%',
         '100':'50rem',
-        'y':'30rem'
+        'y':'30rem',
+        'new_width' : '50rem',
+        'test' : '40rem'
       }
 
     },
