@@ -24,6 +24,21 @@ module.exports = {
         'y':'30rem',
         'new_width' : '50rem',
         'test' : '40rem',
+      },
+
+      backgroundImage: {
+        'hero-pattern-mob': "url('../images/Project-1/images/bg-header-mobile.png')",
+        'hero-pattern-desk': "url('../images/Project-1/images/bg-header-desktop.png')",
+        'footer-texture': "url('/img/footer-texture.png')",
+      },
+
+      colors:{
+        'mycolor': "rgba(88, 163, 153, 0.9)",
+        'blueish' : "rgb(126, 161, 255)",
+      },
+
+      margin:{
+        'laptop' : '44rem'
       }
 
     },
