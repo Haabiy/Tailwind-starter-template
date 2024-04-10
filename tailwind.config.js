@@ -38,7 +38,10 @@ module.exports = {
       },
 
       margin:{
-        'laptop' : '44rem'
+        'laptop' : '44rem',
+        'me' : '93rem',
+        'memob' : '88rem',
+        'meme' : '40rem'
       }
 
     },
