@@ -3,14 +3,14 @@
 @tailwind utilities;
 
 #hero{
-    background-image: url('../images/desktop/image-hero.jpg');
+    background-image: url('./images/desktop/image-hero.jpg');
     background-repeat: no-repeat;
     background-size : cover;
 }
 
 @media(max-width:576px){
     #hero{
-        background-image: url('../images/mobile/image-hero.jpg');
+        background-image: url('./images/mobile/image-hero.jpg');
         background-position : center;
     }
 }
@@ -59,4 +59,8 @@
 
 .open .hamburger-bottom {
   transform: rotate(-45deg) translateY(6px) translateX(-6px);
+}
+
+html {
+  scroll-behavior: smooth;
 }

@@ -7,7 +7,7 @@ This is a starter project for using Tailwind CSS in your web development project
 To use Tailwind CSS in your project, follow these steps:
 
 1. Initialize a new npm project:
-   
+
    ```bash
    npm init
    ```
@@ -40,8 +40,5 @@ In your `package.json` file, add the following scripts:
 To compile Tailwind CSS and watch for changes, run the following command:
 
 ```bash
-npm run watch
+npm run dev
 ```
-
-For more information and examples, check out the [Tailwind-Starter-Reference](https://github.com/phithounsavanh/Tailwind-starter).
-

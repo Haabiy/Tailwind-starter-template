@@ -6,21 +6,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-    <script src="../dist/script.js" defer></script>
+    <script src="./script.js" defer></script>
     <link rel="stylesheet" href="./output.css">
     <title>LoopStudio</title>
 </head>
 <body>
     <!--Hero section-->
-    <section id="hero" class="h-96 md:h-hero">
+    <section id="hero" class="h-hero">
         <div class="flex lg:gap-96">
-            <div class="m-16"><img src="../images/logo.svg" alt=""></div>
+            <div class="m-16"><img src="./images/logo.svg" alt=""></div>
             <div class="hidden xl:flex gap-16 absolute right-24 m-16 text-xl text-white">
-                <div class="#">ABOUT</div>
-                <div class="#">CAREERS</div>
-                <div class="#">EVENTS</div>
-                <div class="#">PRODUCTS</div>
-                <div class="#">SUPPORT</div>
+                <div class="#ABOUT">ABOUT</div>
+                <div class="#CAREERS">CAREERS</div>
+                <div class="#EVENTS">EVENTS</div>
+                <div class="#PRODUCTS">PRODUCTS</div>
+                <div class="#SUPPORT">SUPPORT</div>
             </div>
         </div>
 
@@ -34,13 +34,13 @@
     </div>
 
     <!-- Mobile Menu -->
-    <div id="menu" class="absolute top-0 min-w-full min-h-screen left-0 hidden py-1 pt-40 gap-3 text-lg text-white flex-col uppercase bg-black">
+    <div id="menu" class="hidden absolute top-0 self-end min-w-full min-h-screen gap-3 text-lg text-white flex-col uppercase bg-black">
         <div class="flex flex-col gap-3 absolute top-0 m-20">
-            <a href="#" class="hover:text-pink-500">About</a>
-            <a href="#" class="hover:text-pink-500">Careers</a>
-            <a href="#" class="hover:text-pink-500">Events</a>
-            <a href="#" class="hover:text-pink-500">Products</a>
-            <a href="#" class="hover:text-pink-500">Support</a>
+            <a href="#About" class="hover:text-pink-500">About</a>
+            <a href="#Careers" class="hover:text-pink-500">Careers</a>
+            <a href="#Events" class="hover:text-pink-500">Events</a>
+            <a href="#Products" class="hover:text-pink-500">Products</a>
+            <a href="#Support" class="hover:text-pink-500">Support</a>
         </div>
     </div>
 
@@ -48,9 +48,9 @@
     </section>
 
 <!-- Mobile Menu -->
-    <section id="">
+    <section id="#">
         <div class="flex flex-col md:flex-row lg:flex-row">
-            <div class="pt-4 md:p-8"><img src="../images/mobile/image-interactive.jpg" alt="" class="md:w-imagex"></div>
+            <div class="pt-4 md:p-8"><img src="./images/mobile/image-interactive.jpg" alt="" class="md:w-imagex"></div>
             <div class="md:flex-col lg:flex-col">
             <div class="text-slate-900 text-center p-8 text-2xl md:text-4xl">The LEADER IN INTERACTIVE VR</div>
             <div class="text-center px-8 font-sans lg:text-2xl xl:text-3xl">
@@ -62,22 +62,22 @@
         </div>
         </div>
     </section>
-    <section>
+    <section id="Events">
         <div class="pt-12 text-center text-2xl lg:text-5xl">OUR CREATIONS</div>
         <div class="flex flex-col gap-3 p-4 justify-center items-center lg:grid lg:grid-cols-4">
-            <div><img src="../images/mobile/image-deep-earth.jpg" alt=""></div>
-            <div><img src="../images/mobile/image-night-arcade.jpg" alt=""></div>
-            <div><img src="../images/mobile/image-soccer-team.jpg" alt=""></div>
-            <div><img src="../images/mobile/image-grid.jpg" alt=""></div>
-            <div><img src="../images/mobile/image-from-above.jpg" alt=""></div>
-            <div><img src="../images/mobile/image-pocket-borealis.jpg" alt=""></div>
-            <div><img src="../images/mobile/image-curiosity.jpg" alt=""></div>
-            <div><img src="../images/mobile/image-fisheye.jpg" alt=""></div>
+            <div><img src="./images/mobile/image-deep-earth.jpg" alt=""></div>
+            <div><img src="./images/mobile/image-night-arcade.jpg" alt=""></div>
+            <div><img src="./images/mobile/image-soccer-team.jpg" alt=""></div>
+            <div><img src="./images/mobile/image-grid.jpg" alt=""></div>
+            <div><img src="./images/mobile/image-from-above.jpg" alt=""></div>
+            <div><img src="./images/mobile/image-pocket-borealis.jpg" alt=""></div>
+            <div><img src="./images/mobile/image-curiosity.jpg" alt=""></div>
+            <div><img src="./images/mobile/image-fisheye.jpg" alt=""></div>
         </div>
     </section>
-    <footer class="bg-slate-800 m-4">
+    <footer id="Support" class="bg-slate-800 m-4">
         <div class="flex flex-col gap-8 justify-center items-center p-8 md:flex md:flex-row md:gap-40">
-            <div class="md:relative md:right-24"><img src="../images/logo.svg" alt="" class="md:relative md:left-32 md:max-w-96"></div>
+            <div class="md:relative md:right-24"><img src="./images/logo.svg" alt="" class="md:relative md:left-32 md:max-w-96"></div>
             <div class="flex flex-col gap-4 md:flex md:flex-row md:gap-4 md:relative md:right-8 md:text-sm lg:flex lg:flex-row lg:gap-4 xl:flex xl:flex-row xl:gap-4 text-white">
                 <div class="">ABOUT</div>
                 <div class="">CAREERS</div>
