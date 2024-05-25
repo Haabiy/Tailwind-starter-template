@@ -41,7 +41,10 @@ module.exports = {
         'laptop' : '44rem',
         'me' : '93rem',
         'memob' : '88rem',
-        'meme' : '40rem'
+        'meme' : '40rem',
+        'me2' : '115rem',
+        'memob2' : '88rem',
+        'meme2' : '40rem'
       }
 
     },
