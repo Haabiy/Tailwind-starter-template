@@ -6,7 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-    <script src="../dist/script.js" defer></script>
+    <script src="../dist/script.js"></script>
     <link rel="stylesheet" href="./output.css">
     <title>LoopStudio</title>
 </head>
@@ -16,39 +16,25 @@
         <div class="flex lg:gap-96">
             <div class="m-16"><img src="../images/logo.svg" alt=""></div>
             <div class="hidden xl:flex gap-16 absolute right-24 m-16 text-xl text-white">
-                <div class="#">ABOUT</div>
-                <div class="#">CAREERS</div>
-                <div class="#">EVENTS</div>
-                <div class="#">PRODUCTS</div>
-                <div class="#">SUPPORT</div>
+                <div class="">ABOUT</div>
+                <div class="">CAREERS</div>
+                <div class="">EVENTS</div>
+                <div class="">PRODUCTS</div>
+                <div class="">SUPPORT</div>
             </div>
         </div>
-
-    <!-- Hamburger Button -->
-    <div class="absolute top-0 right-0 m-16 xl:hidden">
-    <button id="menu-btn" type="button" class="z-40 block hamburger xl:hidden focus:outline-none">
-        <span class="hamburger-top"></span>
-        <span class="hamburger-middle"></span>
-        <span class="hamburger-bottom"></span>
-    </button>
-    </div>
-
-    <!-- Mobile Menu -->
-    <div id="menu" class="absolute top-0 min-w-full min-h-screen left-0 hidden py-1 pt-40 gap-3 text-lg text-white flex-col uppercase bg-black">
-        <div class="flex flex-col gap-3 absolute top-0 m-20">
-            <a href="#" class="hover:text-pink-500">About</a>
-            <a href="#" class="hover:text-pink-500">Careers</a>
-            <a href="#" class="hover:text-pink-500">Events</a>
-            <a href="#" class="hover:text-pink-500">Products</a>
-            <a href="#" class="hover:text-pink-500">Support</a>
-        </div>
-    </div>
-
         <div class="text-white text-5xl font-alata m-16">Impressive experiences that deliver</div>
     </section>
+    <!-- Mobile Menu -->
+    <div class="menu text-white text-xl" id="menu">
+        <a href="#ABOUT">ABOUT</a>
+        <a href="#CAREERS">CAREERS</a>
+        <a href="#EVENTS">EVENTS</a>
+        <a href="#PRODUCTS">PRODUCTS</a>
+        <a href="#SUPPORT">SUPPORT</a>
+    </div>
 
-<!-- Mobile Menu -->
-    <section id="">
+    <section id="#ABOUT">
         <div class="flex flex-col md:flex-row lg:flex-row">
             <div class="pt-4 md:p-8"><img src="../images/mobile/image-interactive.jpg" alt="" class="md:w-imagex"></div>
             <div class="md:flex-col lg:flex-col">
