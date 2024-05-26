@@ -2,8 +2,24 @@
 module.exports = {
   content: ['./dist/*.{html,js}'],
   theme: {
-    extend: {},
+    screens:{
+      sm: '480px',
+      md: '768px',
+      lg: '976px',
+      xl: '1440px'
+    },
+    extend: {
+      fontFamily : {
+        sans: ['Barlow Semi Condensed', 'sans-serif'],
+        alata : ['Alata', 'sans-serif'],
+      }
+    },
+    width:{
+      'imagex': '80rem',
+    },
+    height:{
+      'hero': '25rem',
+    },
   },
   plugins: [],
 }
-
